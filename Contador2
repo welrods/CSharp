@@ -1,0 +1,55 @@
+static void Main(string[] args)
+        {
+            int contador;
+
+            //Contador de 10 em 10 até 100
+            Console.WriteLine();
+            Console.WriteLine("Contador de 10 em 10 até 1000");
+            for (contador = 0; contador <= 1000; contador += 10)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+            
+            //Contador de 20 em 20 até 1000
+            Console.WriteLine();
+            Console.WriteLine("Contador de 20 em 20 até 1000");
+            for (contador = 0; contador <= 1000; contador += 20)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+
+            //Contador de 50 em 50 até 1000
+            Console.WriteLine();
+            Console.WriteLine("Contador de 50 em 50 até 1000");
+            for (contador = 0; contador <=1000; contador += 50)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+
+            //Contador de 100 em 100 até 10000
+            Console.WriteLine();
+            Console.WriteLine("Contador de 100 em 100 até 10000");
+            for (contador = 0; contador <= 10000; contador += 100)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+
+            //Contador de 200 em 200 até 10000
+            Console.WriteLine();
+            Console.WriteLine("Contador de 200 em 200 até 10000");
+            for (contador = 0; contador <= 10000; contador += 200)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+
+            //Contador de 500 em 500 até 100000
+            Console.WriteLine();
+            Console.WriteLine("Contador de 500 em 500 até 100000");
+            for (contador = 0; contador <= 100000; contador += 500)
+            {
+                Console.WriteLine("O intervalo contém: " + contador);
+            }
+
+            Console.ReadLine();
+
+        }
