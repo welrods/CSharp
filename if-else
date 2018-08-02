@@ -1,0 +1,18 @@
+int numero1, numero2;
+
+            Console.Write("Digite um número: ");
+            numero1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite outro número: ");
+            numero2 = int.Parse(Console.ReadLine());
+
+            if (numero1 < numero2)
+            {
+                Console.WriteLine("O primeiro número é menor que o segundo");
+            }
+            else
+            {
+                Console.WriteLine("O primeiro número é maior que o segundo");
+            }
+
+            Console.ReadLine();
